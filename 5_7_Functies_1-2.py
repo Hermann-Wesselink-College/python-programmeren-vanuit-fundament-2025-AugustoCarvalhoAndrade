@@ -16,9 +16,9 @@ print("Te betalen: " + str(teBetalen) +" EUR.")
 # Opdracht 2                       #
 ####################################
 
-	def vraagCijfer():
-	  cijfer = float(input("Voer het cijfer in (tussen 1.0 en 10.0):"))
-	  while cijfer < 1.0 or cijfer > 10.0:
-	    cijfer = float(input("Dat is geen geldig cijfer! Voer het opnieuw in:"))
-	  return cijfer
+def vraagCijfer():
+	cijfer = float(input("Voer het cijfer in (tussen 1.0 en 10.0):"))
+	while cijfer < 1.0 or cijfer > 10.0:
+		cijfer = float(input("Dat is geen geldig cijfer! Voer het opnieuw in:"))
+	return cijfer
    
